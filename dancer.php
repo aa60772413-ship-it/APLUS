@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>One Page Wonder - Start Bootstrap Template</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="./js/jquery-3.4.1.js"></script>
+    <style>
+        .top {
+            margin-top: 100PX;
+        }
+
+        /* 自定義卡片質感 */
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            /* 讓動畫平滑 */
+        }
+
+        /* 滑鼠移上去時的效果 */
+        .card:hover {
+            transform: translateY(-10px);
+            /* 向上浮動 */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+            /* 加深陰影 */
+        }
+    </style>
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+
+        <div class="container px-5">
+            <a class="navbar-brand" href="./index.php"><img src="./img/1- 1.png" width="60px">𝔸ℙ𝕃𝕌𝕊 𝔻𝕒𝕟𝕔𝕖 𝕊𝕥𝕦𝕕𝕚𝕠
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="">舞團介紹</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            課程介紹
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li class="nav-item"><a class="dropdown-item" href="#">本月課表</a></li>
+
+                            <li class="nav-item"><a class="dropdown-item" href="#">教室環境</a></li>
+                            <li class="nav-item"><a class="dropdown-item" href="#">費用說明</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="">本月課表</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://docs.google.com/spreadsheets/d/1PZEO4HsuK75wH8L8u3yMRJBoPdX1suN9NySn8fy_C6E/edit?pli=1&gid=1412312982#gid=1412312982">報名資訊</a></li>
+                    <li onclick="lo('?do=admin')" class="nav-item"><a class="nav-link" href="./login.php">管理登入</a></li>
+
+                    <!-- <button onclick="lo('?do=admin')">管理登入</button> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header-->
+
+    <header class=" text-center text-white">
+        <div class="overlay"></div>
+        <div class="top"><img src="./img/channels4_banner.jpg" width="100%"></div>
+
+        <div>
+            <a href="https://www.youtube.com/@APLUSTW"><img src="./img/dance.gif" width="95%" height="50%"></a>
+
+        </div>
+        </div>
+    </header>
+    <hr>
+
+
+
+    </div>
+    <div class="container my-5" style="max-width: 900px;">
+       <h1 style="text-align: center;" class="mt-0 mb-5">團員介紹</h1>
+
+
+        <div class="row row-cols-1 row-cols-sm-2 g-3 ">
+            <div class="col">
+                <div class="card">
+                    <img src="./img/g1.png" class="card-img-top" alt="card-grid-image">
+                    <div class="card-body">
+                        <h5 class="card-title">AFA</h5>
+                        <p class="card-text">星座：<br>ＭＢＴＩ：</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./img/g2.png" class="card-img-top" alt="card-grid-image">
+                    <div class="card-body">
+                        <h5 class="card-title">NEFERTAR</h5>
+                         <p class="card-text">星座：<br>ＭＢＴＩ：</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./img/g3.png" class="card-img-top" alt="card-grid-image">
+                    <div class="card-body">
+                        <h5 class="card-title">BECCA</h5>
+                         <p class="card-text">星座：<br>ＭＢＴＩ：</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./img/g4.png" class="card-img-top" alt="card-grid-image">
+                    <div class="card-body">
+                        <h5 class="card-title">MIYAI</h5>
+                        <p class="card-text">星座：<br>ＭＢＴＩ：</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contact-->
+    <section class="contact-section bg-black py-4">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Address</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-envelope text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Email</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Phone</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small text-black-50">+1 (555) 902-8832</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-black ">
+        <div class="d-flex justify-content-center">
+
+            <div class="social d-flex justify-content-center p-5">
+                <a class="mx-2" href="./back.php"><i class="fab fa-twitter fa-2x"></i></a>
+                <a class="mx-2" href="https://www.facebook.com/groups/514020850183057/?ref=share"><i class="fab fa-facebook-f fa-2x"></i></a>
+                <a class="mx-2" href="https://instagram.com/aplus_dancestudio?igshid=MDE2OWE1N2Q="><i class="fab fa-instagram fa-2x"></i></a>
+                <a class="mx-2" href="https://liff.line.me/1645278921-kWRPP32q/?accountId=191sesnc"><i class="fab fa-line fa-2x"></i></a>
+                <a class="mx-2" href="https://www.youtube.com/@alexedsa0222"><i class="fab fa-youtube fa-2x"></i></a>
+            </div>
+            <div class="social d-flex justify-content-center p-5">
+                <a class="mx-2" href="./back.php"><i class="fab fa-twitter fa-2x"></i></a>
+                <a class="mx-2" href="https://www.facebook.com/groups/514020850183057/?ref=share"><i class="fab fa-facebook-f fa-2x"></i></a>
+                <a class="mx-2" href="https://instagram.com/aplus_dancestudio?igshid=MDE2OWE1N2Q="><i class="fab fa-instagram fa-2x"></i></a>
+                <a class="mx-2" href="https://liff.line.me/1645278921-kWRPP32q/?accountId=191sesnc"><i class="fab fa-line fa-2x"></i></a>
+                <a class="mx-2" href="https://www.youtube.com/@alexedsa0222"><i class="fab fa-youtube fa-2x"></i></a>
+            </div>
+        </div>
+        <div class="container px-5">
+            <p class="m-0 text-center text-white small">Copyright &copy; Your Website 2023</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
